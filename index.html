@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador</title>
+    <link href = "Estilo.css" rel = "stylesheet" />
+    <script src="script.js" defer></script>
+    <!--<script src="./conexao.js" defer></script>-->
+	
+</head>
+
+<body>
+<!-- inicio janela principal -->
+<header>~~Ar Marinho~~</header>
+
+<div class = "tab-content active">
+     
+   <form class = "entradadedados">
+        
+    <label for="codigo">codigo:</label><br>
+    <textarea id="codigo" name="codigo"></textarea><br><br>
+
+    <button type="button" onclick = "link()">gerar link</button><br>
+
+    <a id = "link" href="entraR" target="_blank">Ir para remoto</a>
+
+
+   </form>
+		
+</div>
+		
+<button onclick="logout()">Logout</button>
+        
+<!-- fim janela principal -->
+<!--<script src="./caixafluxo.js"></script>-->
+<!--<script src="http://localhost/form/caixafluxo.js"></script>-->
+<!--<script src="http://192.168.1.15:80/form/caixafluxo.js"></script>-->	   
+</body>	
+
+</html>
